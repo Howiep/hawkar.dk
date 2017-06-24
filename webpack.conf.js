@@ -1,14 +1,9 @@
 import webpack from "webpack";
 import path from "path";
 
-
 export default {
   module: {
     rules: [
-      {
-        test: /\.css$/,
-        use: [ "style-loader", "css-loader" ]
-      },
       {
         test: /\.((png)|(eot)|(woff)|(woff2)|(ttf)|(svg)|(gif))(\?v=\d+\.\d+\.\d+)?$/,
         loader: "file-loader?name=/[hash].[ext]"
@@ -31,7 +26,7 @@ export default {
 
   context: path.join(__dirname, "src"),
   entry: {
-    app: ["./js/app"],
+    app: ["./js/app"]
   },
   output: {
     path: path.join(__dirname, "dist"),
