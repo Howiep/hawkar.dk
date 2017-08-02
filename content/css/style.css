@@ -1,0 +1,176 @@
+body {
+    /*nah*/
+    background-image: url('../img/bg.png');
+    color: #444;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+table {
+    margin-left: -3px;
+    /*???????*/
+}
+
+p {
+    padding-bottom: 25px;
+}
+
+span {
+    font-weight: 600;
+    padding-right: 50px;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    padding-bottom: 5px;
+}
+
+.main {
+    padding: 3% 0 0 0;
+}
+
+nav {
+    float: left;
+}
+
+.tabsMenu {
+}
+
+    .tabsMenu li {
+        padding: 10px 0 10px 20px;
+    }
+
+        .tabsMenu li a {
+            text-decoration: none;
+            font-size: 1.5em;
+            color: #222222;
+            font-weight: 600;
+            display: block;
+        }
+
+            .tabsMenu li a:hover {
+                text-decoration: underline;
+            }
+
+    .tabsMenu .current {
+        background-color: #FFFFFF;
+        border-left: 10px solid #444;
+        transition: ease-in 0.2s;
+    }
+
+        .tabsMenu .current a {
+            text-decoration: underline;
+        }
+
+.tabContent {
+    display: none;
+}
+
+.pageHeader {
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.pageHeader {
+    border-left: 10px solid #444;
+    margin-bottom: 10px;
+}
+
+.pageContent {
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.portfolio a {
+}
+
+.portfolio article:first-child {
+}
+
+.portfolio article div {
+    height: 300px;
+    padding: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+}
+
+.col-3-4 {
+    width: 75%;
+}
+
+.links table tr {
+    ;
+}
+
+.links h4 {
+}
+
+    .links h4 a {
+        text-decoration: none;
+    }
+
+.links h4 {
+}
+
+    .links h4 a:hover {
+        text-decoration: underline;
+    }
+
+.links img {
+    float: right;
+    max-height: 20px;
+}
+
+.contact {
+    padding: 10px 20px 10px 20px;
+    background-color: #FFFFFF;
+}
+
+    .contact table {
+        width: 100%;
+    }
+
+    .contact a {
+        text-decoration: none;
+    }
+
+    .contact img {
+        align-co;
+    }
+
+    .contact a:hover {
+        text-decoration: underline;
+    }
+
+.img {
+    min-height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inst tr td h4 a {
+    font-size: 1em;
+}
+
+@media (max-width: 1100px) {
+}
+
+@media (max-width: 768px) {
+}

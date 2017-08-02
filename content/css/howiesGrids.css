@@ -1,0 +1,147 @@
+﻿/*howiesGrids.css v0.7 Beta*/
+/*Howie.P*/
+/*License: none (public domain)*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+/*Stays the same width, despite padding or borders*/
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*Make "Col-" float*/
+[class*='col-'] {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/*Because float makes parent elements Collapse*/
+[class*='grid']:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*I have no idea what im doing*/
+.gridPad {
+    padding-left: 10px;
+}
+
+.grid {
+    margin: auto;
+    clear: both;
+}
+
+
+.gridMedium {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.gridSmall {
+    max-width: 960px;
+    margin: auto;
+}
+
+/*Large*/
+.col-1 {
+    width: 100%;
+}
+
+.col-2-3 {
+    width: 66.66%;
+}
+
+.col-1-3 {
+    width: 33.33%;
+}
+
+.col-1-2 {
+    width: 50%;
+}
+
+.col-1-4 {
+    width: 25%;
+}
+
+.col-1-8 {
+    width: 12.5%;
+}
+
+@media (max-width: 768px) {
+    /*Medium*/
+    .col-1m {
+        width: 100%;
+    }
+
+    .col-2-3m {
+        width: 66.66%;
+    }
+
+    .col-1-3m {
+        width: 33.33%;
+    }
+
+    .col-1-2m {
+        width: 50%;
+    }
+
+    .col-1-4m {
+        width: 25%;
+    }
+
+    .col-1-8m {
+        width: 12.5%;
+    }
+}
+
+@media (max-width: 480px) {
+    /*Small*/
+    .col-1s {
+        width: 100%;
+    }
+
+    .col-2-3s {
+        width: 66.66%;
+    }
+
+    .col-1-3s {
+        width: 33.33%;
+    }
+
+    .col-1-2s {
+        width: 50%;
+    }
+
+    .col-1-4s {
+        width: 25%;
+    }
+
+    .col-1-8s {
+        width: 12.5%;
+    }
+}
